@@ -40,6 +40,6 @@ jobs:
       - name: Print matrix context
         run: |
           echo '${{ toJSON(matrix) }}'
-          echo "repo woner name: ${{ github.repository_owner }}"
-          echo "repo woner name: ${{ github.repository }}"
+          echo "repo woner name: ${{ github.repository_owner }}" #prints woner
+          echo "repo woner name: ${{ github.repository }}" #prints repo
           
