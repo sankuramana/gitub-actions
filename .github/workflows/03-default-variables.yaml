@@ -41,3 +41,5 @@ jobs:
         run: |
           echo '${{ toJSON(matrix) }}'
           echo "repo woner name: ${{ github.repository_owner }}"
+          echo "repo woner name: ${{ github.repository }}"
+          
